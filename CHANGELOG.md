@@ -1,0 +1,2 @@
+# cnn-hapi-logger Changelog
+

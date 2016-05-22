@@ -1,0 +1,41 @@
+{
+  "name": "cnn-hapi-logger",
+  "version": "0.1.0",
+  "description": "cnn-hapi-logger",
+  "main": "index.js",
+  "directories": {
+    "test": "./test"
+  },
+  "scripts": {
+    "generate-authors": "tools/generate-authors.sh",
+    "generate-changelog": "changelog-maker --group",
+    "generate-docs": "rm -rf docs && esdoc -c .esdoc.json",
+    "test": "eslint . && test/validate-json-files.sh",
+    "update-apply": "ncu -u",
+    "update-check": "ncu"
+  },
+  "homepage": "",
+  "engines": {
+    "node": "6.2.0"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "hoek": "4.0.0",
+    "joi": "8.1.0",
+    "querystring": "0.2.0",
+    "inert": "^4.0.0",
+    "vision": "^4.1.0"
+  },
+  "devDependencies": {
+    "changelog-maker": "2.2.3",
+    "esdoc": "0.4.7",
+    "eslint": "2.10.2",
+    "jsonlint": "1.6.2",
+    "npm-check-updates": "2.6.5"
+  },
+  "keywords": [
+    "cnn",
+    "cnnlabs"
+  ],
+  "license": "MIT"
+}
