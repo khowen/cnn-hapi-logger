@@ -1,0 +1,40 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+.logTable tbody tr td:first-child
+{
+	width: 175px;
+}
+
+.logTable tbody tr td:nth-child(2)
+{
+	width: 30px;
+}
+
+.logTable tbody tr td:nth-child(3)
+{
+	width: 75px;
+}
+
+tr.logError td,tr.logWarn td {
+	color: #ffffff;
+}
+
+.filterDisplay
+{
+	color: #989898;
+}
+
+.filter{
+	width: 300px;
+	margin-top: 10px;
+}
+
+.logError {
+  background-color: #c54e4e !important;
+  color : #ffffff;
+}
+
+.logWarn {
+  background-color: #d07f38 !important;
+  color : #ffffff;
+}
