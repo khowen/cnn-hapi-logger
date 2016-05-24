@@ -35,4 +35,6 @@ app.register({
 });
 app.start(function () {
     console.log('App Starting');
+    
 });
+
