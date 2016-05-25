@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cnn-hapi": "github:cnnlabs/cnn-hapi#develop",
     "cnn-health": "github:cnnlabs/cnn-health#develop",
+    "cnn-metrics": "^0.3.9",
     "debug": "^2.2.0",
     "inert": "^4.0.0",
     "vision": "^4.1.0"
