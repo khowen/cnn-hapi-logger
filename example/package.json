@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "DEBUG=app* PORT=8081 ENVIRONMENT=dev node app.js"
+  },
+  "engines": {
+    "node": "6.2.0"
   },
   "author": "",
   "license": "ISC",
