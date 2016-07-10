@@ -1,7 +1,8 @@
 'use strict';
+
 const hapi = require('cnn-hapi'),
     path = require('path'),
-    debug=require('debug')('app'),
+    debug= require('debug')('app'),
     cnnhealth = require('cnn-health');
 
 let healthChecks = cnnhealth(path.resolve(__dirname, './healthchecks')).asArray();
@@ -35,6 +36,4 @@ app.register({
 });
 app.start(function () {
     console.log('App Starting');
-    
 });
-

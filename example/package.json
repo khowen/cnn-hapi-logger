@@ -7,15 +7,16 @@
     "start": "DEBUG=app* PORT=8081 ENVIRONMENT=dev node app.js"
   },
   "engines": {
-    "node": "6.2.0"
+    "node": "6.2.2"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cnn-hapi": "^0.6.0",
     "cnn-health": "github:cnnlabs/cnn-health#develop",
-    "cnn-metrics": "^0.3.9",
-    "debug": "^2.2.0",
-    "inert": "^4.0.0",
-    "vision": "^4.1.0"
+    "cnn-metrics": "0.3.9",
+    "debug": "2.2.0",
+    "inert": "4.0.0",
+    "vision": "4.1.0"
   }
 }
